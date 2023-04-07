@@ -51,4 +51,12 @@ public class Car {
     public void setSeries(String series) {
         this.series = series;
     }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }
