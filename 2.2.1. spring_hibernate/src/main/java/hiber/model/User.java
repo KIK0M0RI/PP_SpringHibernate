@@ -21,6 +21,7 @@ public class User {
 
    @OneToOne
    @JoinColumn(name = "car_id", referencedColumnName = "id")
+   @MapsId
    private Car car;
 
    public User() {}
