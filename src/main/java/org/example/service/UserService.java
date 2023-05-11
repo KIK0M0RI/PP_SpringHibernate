@@ -1,6 +1,6 @@
-package hiber.service;
+package org.example.service;
 
-import hiber.model.User;
+import org.example.model.User;
 
 import java.util.List;
 

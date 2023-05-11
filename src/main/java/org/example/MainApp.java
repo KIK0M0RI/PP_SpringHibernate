@@ -1,9 +1,9 @@
-package hiber;
+package org.example;
 
-import hiber.config.AppConfig;
-import hiber.model.Car;
-import hiber.model.User;
-import hiber.service.UserService;
+import org.example.config.AppConfig;
+import org.example.model.Car;
+import org.example.model.User;
+import org.example.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.sql.SQLException;
